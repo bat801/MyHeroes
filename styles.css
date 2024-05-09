@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture img {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+    float: right;
+}
+
+.profile-picture-division img {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+    float: right;
+}
+
+.photo-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.medal-gallery img {
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.soldier-info {
+    margin-right: 350px;
+    margin-left: 0px;
+}
+
+.division-info {
+    margin-right: 350px;
+    margin-left: 50px;
+}
+
+.achievements {
+    margin-right: 350px;
+    margin-left: 0px;
+}
+
+.historical-context {
+    text-indent: 1.25cm;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* Добавленные стили для рамки с фото и личными данными */
+.soldier-profile {
+    display: flex;
+}
+
+.division-profile {
+    display: flex;
+}
+
+.profile-picture {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.soldier-info {
+    flex: 1 1 auto;
+}
+
+.photos,
+.documents,
+.photos_download {
+    margin-top: 20px;
+}
+
+.photos,
+.documents,
+.photos_download {
+    clear: both;
+}
+
+.photos ul,
+.documents ul,
+.photos_download ul {
+    list-style: none;
+    padding: 0;
+}
+
+.photos ul li,
+.documents ul li,
+.photos_download ul li {
+    margin-bottom: 10px;
+}
+
+.photos ul li a,
+.documents ul li a,
+.photos_download ul li a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.photos ul li a:hover,
+.documents ul li a:hover,
+.photos_download ul li a:hover {
+    background-color: #ddd;
+}
+
+/* Общие стили для всех секций */
+.biography,
+.warpath,
+.achievements,
+.photos,
+.documents,
+.photos_download {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Добавлен отступ снизу для разделения секций */
+}
+
+.biography h2,
+.warpath h2,
+.achievements h2,
+.photos h2,
+.documents h2,
+.photos_download h2 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.biography p,
+.warpath p,
+.achievements p,
+.photos p,
+.documents p,
+.photos_download p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.biography p:first-child,
+.warpath p:first-child,
+.achievements p:first-child,
+.photos p:first-child,
+.documents p:first-child,
+.photos_download p:first-child {
+    margin-top: 0;
+}
+
+.biography a,
+.warpath a,
+.achievements a,
+.photos a,
+.documents a,
+.photos_download a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.biography a:hover,
+.warpath a:hover,
+.achievements a:hover,
+.photos a:hover,
+.documents a:hover,
+.photos_download a:hover {
+    text-decoration: underline;
+}
+
+.quote {
+    background-color: #f9f9f9;
+    border-left: 6px solid #ccc;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.quote-signature {
+    text-align: right;
+}
+
+.quote-text {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.quote-author {
+    font-weight: bold;
+    margin: 0;
+}
+
+.quote-date {
+    font-style: italic;
+    color: #888;
+    margin: 0;
+}
